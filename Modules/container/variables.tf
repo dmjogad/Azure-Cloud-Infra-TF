@@ -1,0 +1,3 @@
+variable "cont_info" {
+  
+}

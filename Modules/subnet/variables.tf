@@ -1,0 +1,3 @@
+variable "snet_info" {
+  
+}
