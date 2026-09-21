@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name = "momos"
-    storage_account_name = "oaksoakstg"
-    container_name = "oaksoakcont"
+    resource_group_name = "rg-chulbule"
+    storage_account_name = "chulbulestg"
+    container_name = "tfstate"
     key = "pre-prod.tfstate"
   }
 }
